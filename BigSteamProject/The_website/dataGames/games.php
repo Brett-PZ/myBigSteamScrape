@@ -27,7 +27,7 @@ $intro= mysqli_query($conn, $query);
       <div id="container">
       <h1>Top 100 Steam Games</h1>
 
-      <h2>Need help finding a game? Narrow your search. </h2>
+      <h2>Can't decide what to play next? Looking to find a new indie game? Use the grouping function below. </h2>
           <form action="games.php" method="post">
              <fieldset>
                 <legend>Search by Rank, Price, Details, or Genre.</legend>
@@ -67,6 +67,6 @@ $intro= mysqli_query($conn, $query);
 </table>
 
 <footer>
-  <button type="button"><a href="https://github.com/Brett-PZ/myBigSteamScrape/">Click here for my github page.</a></button>
+  <button type="button"><a href="https://github.com/Brett-PZ/myBigSteamScrape/">Click here for my github page. Project by Brett Pizzi. This project uses a mySQL data base, python, and web scraping.</a></button>
 </body>
 </html>
