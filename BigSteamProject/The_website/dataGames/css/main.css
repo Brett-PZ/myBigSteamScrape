@@ -1,0 +1,54 @@
+#container{
+  margin:0;
+  color:#ffffff;
+  background:#171A21;
+  font-family:sans-serif;
+  font-size: .75em;
+  line-height: 1.5em;
+  padding:3em;
+
+
+}
+
+h1{
+  color:#ffffff;
+  margin: 0;
+  line-height: 125%;
+  padding-bottom: : .5em;
+
+}
+
+h2{
+  color:#ffffff;
+  margin: 0;
+  line-height: 125%;
+  padding-bottom: : .5em;
+
+}
+
+
+fieldset{
+  margin: .5em;
+}
+
+select{
+  margin: .5em;
+  font-size:.5em;
+}
+
+input{
+  margin:.5em;
+}
+
+@media (max-width: 600px) {
+    body {
+        background: #2a475e;
+    }
+    #container {
+        color: #171A21
+        width: 100%;
+        padding: 2em;
+    }
+    
+
+}
